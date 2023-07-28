@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    color: var(--color-white);
+}
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/738/529/262/background-new-year-backgrounds-branches-download-3840x2400-background-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Newyear{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    top: 20%;
+    left: 4%;
+}
+
+.title{
+    text-align: center;
+    /*margin-bottom: 4em;*/
+}
+
+
+
+.title h1{
+    font-size: 1.6em;
+    background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
+    text-shadow: 2px 2px green;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    display: inline-block;
+}
+
+.countdown{
+    width: 95vw;
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+.time{
+    width: 30vmin;
+    height: 30vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+span.box{
+    background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);
+    text-shadow: 2px 2px green;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    height: 100%;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+}
+
+span.box::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+}
+
+span.text{
+    font-size: 1em;
+    background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);
+    text-shadow: 2px 2px green;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    bottom: 20px;
+    padding: 0.7em 0;
+    font-weight: 600;
+}
+
+#year{
+    text-shadow: 5px 5px green;
+    background: linear-gradient(109.6deg, rgb(148, 233, 194) 11.2%, rgb(224, 235, 186) 91.1%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    font-weight: 400;
+    display:flex;
+    position: absolute;
+    padding-top: 500px;
+    padding-left: 600px;
+}
+
+
+
